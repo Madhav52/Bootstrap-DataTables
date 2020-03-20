@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Datatables</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+</head>
+<style>
+    body{
+        background-color: #f5f5f5;
+    }
+   div.dataTables_wrapper div.dataTables_filter input{
+    width: 340px !important;
+   }
+</style>
+<body>
+	<div class="container mb-3 mt-3">
+		<table id="example" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th style="width:70%">News Heading</th>
+                <th style="width:30%">Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#">Breaking: SEE Examinations Postponed</a></td>
+                <td>Current Affairs</td>
+            </tr>
+            <tr>
+                <td><a href="#">Government decides to close Cinema halls, Gym and Dance bars</a></td>
+                <td>Current Affairs</td>
+            </tr>
+            <tr>
+                <td><a href="#">PABSON Says "No Schools at 9, Start Offices at 8 A.M."</a></td>
+                <td>Current Affairs</td>
+            </tr>
+            <tr>
+                <td><a href="#">Appeal Regarding COVID-19 From Education, Science & Technology Ministry</a></td>
+                <td>Science & Technology</td>
+            </tr>
+            <tr>
+                <td><a href="#">B.Ed Third Year Exam Notice Published: Purbanchal University</a></td>
+                <td>Purbanchal University Notice</td>
+            </tr>
+            <tr>
+                <td><a href="#">School Timing Set to be Revised ( 9 A.M to 4 P.M)</a></td>
+                <td>National News</td>
+            </tr>
+            <tr>
+                <td><a href="#">Entrance Result Published of Masters Degree of Science & Technology: Purbanchal University</a></td>
+                <td>Purbachal University Notice</td>
+            </tr>
+            <tr>
+                <td><a href="#">Department of Transport Management: No private vehicle allowed to operate like in Tootle, Pathao</a></td>
+                <td>Current Affairs</td>
+            </tr>
+            <tr>
+                <td><a href="#">Students confront with Indian BSF and have Nepali flag flying high at the border</a></td>
+                <td>National News</td>
+            </tr>
+            <tr>
+                <td><a href="#">KU Calls Interview Notice For Need-Based Scholarship: School of Engineering</a></td>
+                <td>Scholarships</td>
+            </tr>
+            <tr>
+                <td><a href="#">Corono Virus has killed almost 8000 people all over the world</a></td>
+                <td>International</td>
+            </tr>
+            
+            
+        </tfoot>
+    </table>
+		
+	</div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+	<script>
+    	$('#example').DataTable();
+    </script>
+</body>
+</html>
